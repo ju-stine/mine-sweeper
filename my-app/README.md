@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Minesweeper Game
+
+A classic Minesweeper game built with React and TypeScript. Test your logic and strategy skills by uncovering all the cells without triggering any mines! 🚩💣
+
+---
+
+## Features
+
+- **Dynamic Grid**: A 9x9 grid with 10 randomly placed mines.
+- **Flagging**: Right-click to flag cells you suspect contain mines.
+- **Game Status**: Displays whether you are playing, won, or lost.
+- **Timer**: Tracks how long you've been playing.
+- **Responsive Design**: Works on desktop and mobile devices.
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+Make sure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+---
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ju-stine/minesweeper-game.git
+   cd minesweeper-game
+
+2. Install dependencies:
+` npm install`
+
+3. Start the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open the game in your browser:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+How to Play
+Reveal Cells: Left-click on a cell to reveal it.
+Flag Mines: Right-click on a cell to place a flag.
+Win the Game: Reveal all non-mine cells to win.
+Lose the Game: Clicking on a mine ends the game.
 
-## Learn More
+Project Structure
+Minesweeper: Contains the Minesweeper game logic and components.
+minesweeper.tsx: Main game logic and rendering.
+minesweeper.css: Styles for the game board and cells.
 
-To learn more about Next.js, take a look at the following resources:
+Technologies Used
+React: For building the user interface.
+TypeScript: For type-safe development.
+CSS: For styling the game.
+Next.js: For server-side rendering and development.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Future Improvements
+Add difficulty levels (e.g., Easy, Medium, Hard).
+Implement a leaderboard to track high scores.
+Add animations for cell reveals and explosions.
+Support custom grid sizes and mine counts.
