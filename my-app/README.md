@@ -32,34 +32,36 @@ Make sure you have the following installed on your system:
    cd minesweeper-game
 
 2. Install dependencies:
-` npm install`
+    ```bash
+    `npm install`
 
 3. Start the development server:
-npm run dev
+    ```bash
+    `npm run dev`
 
 4. Open the game in your browser:
 http://localhost:3000
 
+---
 
-How to Play
-Reveal Cells: Left-click on a cell to reveal it.
-Flag Mines: Right-click on a cell to place a flag.
-Win the Game: Reveal all non-mine cells to win.
-Lose the Game: Clicking on a mine ends the game.
+### How to Play
 
-Project Structure
-Minesweeper: Contains the Minesweeper game logic and components.
-minesweeper.tsx: Main game logic and rendering.
-minesweeper.css: Styles for the game board and cells.
+- **Reveal Cells**: Left-click on a cell to reveal it.
+- **Flag Mines**: Right-click on a cell to place a flag.
+- **Win the Game**: Reveal all non-mine cells to win.
+- **Lose the Game**: Clicking on a mine ends the game.
 
-Technologies Used
-React: For building the user interface.
-TypeScript: For type-safe development.
-CSS: For styling the game.
-Next.js: For server-side rendering and development.
+---
 
-Future Improvements
-Add difficulty levels (e.g., Easy, Medium, Hard).
-Implement a leaderboard to track high scores.
-Add animations for cell reveals and explosions.
-Support custom grid sizes and mine counts.
+## Project Structure
+- **Minesweeper**: Contains the Minesweeper game logic and components.
+- **minesweeper.tsx**: Main game logic and rendering.
+- **minesweeper.css**: Styles for the game board and cells.
+
+---
+
+## Technologies Used
+- **React**: For building the user interface.
+- **TypeScript**: For type-safe development.
+- **CSS**: For styling the game.
+- **Next.js**: For server-side rendering and development.
