@@ -1,4 +1,5 @@
 
+
 * {
     box-sizing: border-box;
   }
@@ -13,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #172554, #312e81, #581c87);
+    background: linear-gradient(135deg, #31a896, #431924, #6a856e);
     padding: 30px 15px;
   }
   
@@ -21,8 +22,7 @@
     width: 100%;
     max-width: 430px;
     padding: 30px;
-    background: #f1f5f9;
-    border-radius: 20px;
+    background:  #5b7e79;;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
     text-align: center;
   }
@@ -30,12 +30,12 @@
   h1 {
     font-size: 32px;
     letter-spacing: 3px;
-    color: #1e293b;
+    color: #004fc4;
     margin: 0;
   }
   
   .subtitle {
-    color: #64748b;
+    color: #ffffff;
     margin-bottom: 25px;
   }
   
@@ -43,9 +43,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #1e293b;
+    background: #9e3e6d;
     padding: 12px 18px;
-    border-radius: 10px;
     margin-bottom: 15px;
   }
   
@@ -60,6 +59,7 @@
   
   .restart-button {
     font-size: 27px;
+    font-family:'Courier New', monospace;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -71,18 +71,16 @@
     gap: 4px;
     background: #94a3b8;
     padding: 6px;
-    border-radius: 8px;
+
   }
   
   .cell {
     aspect-ratio: 1;
     min-width: 0;
     border: none;
-    border-radius: 4px;
     background: #cbd5e1;
-    box-shadow: inset -3px -3px 0 #94a3b8,
-      inset 3px 3px 0 #f8fafc;
     font-size: clamp(13px, 4vw, 19px);
+    font-family: monospace;
     font-weight: bold;
     cursor: pointer;
     color: #2563eb;
@@ -98,32 +96,52 @@
   
   .cell.revealed {
     background: #e2e8f0;
-    box-shadow: inset 0 0 0 1px #cbd5e1;
+    box-shadow: inset 0 0 0 1px #145cb5;
     cursor: default;
   }
-  
-  .cell.revealed:nth-child(9n + 1) {
-    color: #2563eb;
+
+  .cell.revealed.number-1 {
+    color: rgb(57, 218, 132);
   }
   
-  .cell.revealed:nth-child(9n + 2) {
-    color: #16a34a;
+  .cell.revealed.number-2 {
+    color: rgb(73, 73, 212);
+  }
+  
+  .cell.revealed.number-3 {
+    color: rgb(203, 55, 112);
+  }
+  
+  .cell.number-4 {
+    color: rgb(132, 41, 132);
+  }
+  
+  .cell.number-5 {
+    color: rgb(161, 57, 57);
+  }
+  
+  .cell.number-6 {
+    color: rgb(69, 149, 141);
+  }
+  
+  .cell.number-7 {
+    color: black;
   }
   
   .game-message {
     min-height: 30px;
     margin: 20px 0;
-    color: #334155;
+    color: #fefefe;
     font-weight: bold;
   }
   
   .new-game-button {
     width: 100%;
     padding: 13px;
-    background: #7c3aed;
+    background: #7ce31c;
     color: white;
     border: none;
-    border-radius: 9px;
+    font-family:'Courier New', monospace;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -131,7 +149,7 @@
   }
   
   .new-game-button:hover {
-    background: #6d28d9;
+    background: #07d3b4;
     transform: translateY(-2px);
   }
   

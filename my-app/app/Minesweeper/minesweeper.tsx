@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ".//Minesweeper.css";
 
-type Cell = {
+type Cell  = {
   mine: boolean;
   revealed: boolean;
   flagged: boolean;
@@ -195,7 +195,7 @@ export default function App() {
     <main className="game-page">
       <div className="game-container">
         <h1>MINESWEEPER</h1>
-        <p className="subtitle">Find the mines. Stay alive.</p>
+        <p className="subtitle">Find the mines. Stay alive!</p>
 
         <div className="game-header">
           <div className="counter">
@@ -217,8 +217,8 @@ export default function App() {
           {board.map((cell, index) => (
             <button
               key={index}
-              className={`cell ${
-                cell.revealed ? "revealed" : ""
+              className={`cell ${cell.revealed ? "revealed" : ""} ${
+                cell.revealed && cell.adjacent > 0 ? `number-${cell.adjacent}` : ""
               }`}
               onClick={() => handleReveal(index)}
               onContextMenu={(e) => handleFlag(e, index)}
