@@ -41,7 +41,7 @@ Make sure you have the following installed on your system:
 
 4. Open the game in your browser:
 
-http://localhost:3000
+    http://localhost:3000
 
 ---
 
@@ -55,9 +55,9 @@ http://localhost:3000
 ---
 
 ## Project Structure
-- **Minesweeper**: Contains the Minesweeper game logic and components.
-- **minesweeper.tsx**: Main game logic and rendering.
-- **minesweeper.css**: Styles for the game board and cells.
+- *Minesweeper*: Contains the Minesweeper game logic and components.
+- *minesweeper.tsx*: Main game logic and rendering.
+- *minesweeper.css*: Styles for the game board and cells.
 
 ---
 
