@@ -1,7 +1,10 @@
-export default function Home() {
-  return (
+"use client";
+import Minesweeper from './Minesweeper/minesweeper';
+
+const HomePage = () => (
     <div>
-      Hello Justine
+        <Minesweeper />
     </div>
-  );
-}
+);
+
+export default HomePage;
