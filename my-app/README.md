@@ -55,9 +55,9 @@ Make sure you have the following installed on your system:
 ---
 
 ## Project Structure
-- *Minesweeper*: Contains the Minesweeper game logic and components.
-- *minesweeper.tsx*: Main game logic and rendering.
-- *minesweeper.css*: Styles for the game board and cells.
+    *Minesweeper*: Contains the Minesweeper game logic and components.
+    *minesweeper.tsx*: Main game logic and rendering.
+    *minesweeper.css*: Styles for the game board and cells.
 
 ---
 
