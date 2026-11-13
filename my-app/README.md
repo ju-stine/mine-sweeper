@@ -33,13 +33,14 @@ Make sure you have the following installed on your system:
 
 2. Install dependencies:
     ```bash
-    `npm install`
+    npm install
 
 3. Start the development server:
     ```bash
-    `npm run dev`
+    npm run dev
 
 4. Open the game in your browser:
+
 http://localhost:3000
 
 ---
