@@ -1,6 +1,6 @@
 # Minesweeper Game
 
-A classic Minesweeper game built with React and TypeScript. Test your logic and strategy skills by uncovering all the cells without triggering any mines! 🚩💣
+A classic Minesweeper game built with React and TypeScript. Enjoy!
 
 ---
 
